@@ -1,0 +1,369 @@
+<?xml version="2.0" ?>
+<scene>
+	<group>
+		<!-- SOL !-->
+		<scale X="16.0" Y="16.0" Z="16.0"/>
+		<colour X="0.956" Y="0.909" Z="0.043"/>
+		<models>
+			<model file='../3dFiles/sphere.3d'/>
+		</models>
+		<group>
+			<!-- MERCURIO !-->
+			<translate time="21">
+			      <point X="1.5" Y="0" Z="0"/>
+			      <point X="1.0607" Y="0" Z="1.0607"/>
+			      <point X="0" Y="0" Z="1.5"/>
+			      <point X="-1.0607" Y="0" Z="1.0607"/>
+			      <point X="-1.5" Y="0" Z="0"/>
+			      <point X="-1.0607" Y="0" Z="-1.0607"/>
+			      <point X="0" Y="0" Z="-1.5"/>
+			      <point X="1.0607" Y="0" Z="-1.0607"/>
+		    </translate>
+		    <rotate time="10" X="0" Y="1" Z="0"/>
+			<scale X="0.05" Y="0.05" Z="0.05"/>
+			<colour X="0.552" Y="0.549" Z="0.486"/>
+			<models>
+				<model file = '../3dFiles/sphere.3d'/>
+			</models>
+		</group>
+		<group>
+			<!-- VENUS !-->
+			<translate time="56">
+			      <point X="2.8421" Y="0" Z="0"/>
+			      <point X="2.0097" Y="0" Z="2.0097"/>
+			      <point X="0" Y="0" Z="2.8421"/>
+			      <point X="-2.0097" Y="0" Z="2.0097"/>
+			      <point X="-2.8421" Y="0" Z="0"/>
+			      <point X="-2.0097" Y="0" Z="-2.0097"/>
+			      <point X="0" Y="0" Z="-2.8421"/>
+			      <point X="2.0097" Y="0" Z="-2.0097"/>
+		    </translate>
+		    <rotate time="10" X="0" Y="1" Z="0"/>
+			<scale X="0.1244" Y="0.1244" Z= "0.1244"/>
+			<colour X="0.929" Y="0.909" Z="0.572"/>
+			<models>
+			    <model file='../3dFiles/sphere.3d'/>
+			</models>
+		</group>
+		<group>
+			<!-- TERRA !-->
+			<translate time="90">
+			      <point X="3.9211" Y="0" Z="0"/>
+			      <point X="2.7726" Y="0" Z="2.7726"/>
+			      <point X="0" Y="0" Z="3.9211"/>
+			      <point X="-2.7726" Y="0" Z="2.7726"/>
+			      <point X="-3.9211" Y="0" Z="0"/>
+			      <point X="-2.7726" Y="0" Z="-2.7726"/>
+			      <point X="0" Y="0" Z="-3.9211"/>
+			      <point X="2.7726" Y="0" Z="-2.7726"/>
+		    </translate>
+		    <rotate time="20" X="0" Y="1" Z="0"/>
+			<scale X="0.1310" Y="0.1310" Z= "0.1310"/>
+			<colour X="0.105" Y="0.466" Z="0.815"/>
+			<models>
+			    <model file='../3dFiles/sphere.3d'/>
+			</models>
+			<group>
+				<!-- SATELITE - LUA !-->
+			    <translate time="1">
+					<point X="2" Y="0" Z="0"/>
+		            <point X="1.4" Y="0" Z="1.4"/>
+		            <point X="0" Y="0" Z="2"/>
+		            <point X="-1.4" Y="0" Z="1.4"/>
+		            <point X="-2" Y="0" Z="0"/>
+		            <point X="-1.4" Y="0" Z="-1.4"/>
+	                <point X="0" Y="0" Z="-2"/>
+			        <point X="1.4" Y="0" Z="-1.4"/>
+		        </translate>
+		        <rotate time="10" X="0" Y="1" Z="0"/>				
+		        <scale X="0.2727" Y="0.2727" Z="0.2727"/>
+				<colour X="0.552" Y="0.549" Z="0.486"/>
+				<models>
+					<model file = '../3dFiles/sphere.3d'/>
+				</models>
+			</group>
+		</group> 
+		<group>
+			<!-- MARTE !-->
+			<translate time="170">
+				<point X="6" Y="0" Z="0"/>
+	            <point X="4.2426" Y="0" Z="4.2426"/>
+	            <point X="0" Y="0" Z="6"/>
+	            <point X="-4.2426" Y="0" Z="4.2426"/>
+	            <point X="-6" Y="0" Z="0"/>
+	            <point X="-4.2426" Y="0" Z="-4.2426"/>
+	            <point X="0" Y="0" Z="-6"/>
+		        <point X="4.2426" Y="0" Z="-4.2426"/>
+		    </translate>
+		    <rotate time="10" X="0" Y="1" Z="0"/>
+			<scale X="0.0695" Y="0.0695" Z= "0.0695"/>
+			<colour X="0.745" Y="0.192" Z="0.035"/>
+			<models>
+			    <model file='../3dFiles/sphere.3d'/>
+			</models>
+		</group>
+		<group>
+			<!-- Cintura de Asteroides !-->
+			<translate time="140">
+				<point X="0.1" Y="0" Z="0"/>
+	            <point X="0.0707" Y="0" Z="0.0707"/>
+	            <point X="0" Y="0" Z="0.1"/>
+	            <point X="-0.0707" Y="0" Z="0.0707"/>
+	            <point X="-0.1" Y="0" Z="0"/>
+	            <point X="-0.0707" Y="0" Z="-0.0707"/>
+	            <point X="0" Y="0" Z="-0.1"/>
+		        <point X="0.0707" Y="0" Z="-0.0707"/>
+		    </translate>
+			<models>
+			    <model file='../3dFiles/cintura.3d'/>
+			</models>
+		</group>
+		<group>
+			<!-- JUPITER !-->
+			<translate time="1071">
+				<point X="12" Y="0" Z="0"/>
+	            <point X="8.4853" Y="0" Z="8.4853"/>
+	            <point X="0" Y="0" Z="12"/>
+	            <point X="-8.4853" Y="0" Z="8.4853"/>
+	            <point X="-12" Y="0" Z="0"/>
+	            <point X="-8.4853" Y="0" Z="-8.4853"/>
+	            <point X="0" Y="0" Z="-12"/>
+		        <point X="8.4853" Y="0" Z="-8.4853"/>
+		    </translate>
+			<scale X="0.6294" Y="0.6294" Z= "0.6294"/>
+			<colour X="0.984" Y="0.760" Z="0.552"/>
+			<models>
+			    <model file='../3dFiles/sphere.3d'/>
+			</models>
+			<group>
+				<!-- SATELITE - IO !-->
+				<translate time="10">
+					<point X="1.4142" Y="0" Z="0"/>
+	            	<point X="1" Y="0" Z="1"/>
+	            	<point X="0" Y="0" Z="1.4142"/>
+	            	<point X="-1" Y="0" Z="1"/>
+	            	<point X="-1.4142" Y="0" Z="0"/>
+	            	<point X="-1" Y="0" Z="-1"/>
+	            	<point X="0" Y="0" Z="-1.4142"/>
+		        	<point X="1" Y="0" Z="-1"/>
+		    	</translate>
+				<scale X="0.025479" Y="0.025479" Z="0.025479"/>
+				<colour X="0.552" Y="0.549" Z="0.486"/>
+				<models>
+					<model file = '../3dFiles/sphere.3d'/>
+				</models>
+			</group>
+			 <group>
+				<!-- SATELITE - EUROPA !-->
+				<translate time="10">
+					<point X="2.3869" Y="0" Z="0"/>
+	            	<point X="1.6878" Y="0" Z="1.6878"/>
+	            	<point X="0" Y="0" Z="2.3869"/>
+	            	<point X="-1.6878" Y="0" Z="1.6878"/>
+	            	<point X="-2.3869" Y="0" Z="0"/>
+	            	<point X="-1.6878" Y="0" Z="-1.6878"/>
+	            	<point X="0" Y="0" Z="-2.3869"/>
+		        	<point X="1.6878" Y="0" Z="-1.6878"/>
+		    	</translate>
+				<scale X="0.0218318" Y="0.0218318" Z="0.0218318"/>
+				<colour X="0.552" Y="0.549" Z="0.486"/>
+				<models>
+					<model file = '../3dFiles/sphere.3d'/>
+				</models>
+			</group>
+		</group>
+		<group>
+			<!-- SATURNO !-->
+			<translate time="2650">
+				<point X="15.285" Y="0" Z="0"/>
+	           	<point X="10.8081" Y="0" Z="10.8081"/>
+	           	<point X="0" Y="0" Z="15.285"/>
+	           	<point X="-10.8081" Y="0" Z="10.8081"/>
+	           	<point X="-15.285" Y="0" Z="0"/>
+	           	<point X="-10.8081" Y="0" Z="-10.8081"/>
+	           	<point X="0" Y="0" Z="-15.285"/>
+		       	<point X="10.8081" Y="0" Z="-10.8081"/>
+		    </translate>
+			<scale X="0.5126" Y="0.5126" Z= "0.5126"/>
+			<colour X="0.992" Y="0.956" Z="0.447"/>
+			<models>
+			    <model file='../3dFiles/sphere.3d'/>
+			</models>
+			<group>
+				<!-- SATELITE - REIA !-->
+				<translate time="10">
+					<point X="1.4142" Y="0" Z="0"/>
+	            	<point X="1" Y="0" Z="1"/>
+	            	<point X="0" Y="0" Z="1.4142"/>
+	            	<point X="-1" Y="0" Z="1"/>
+	            	<point X="-1.4142" Y="0" Z="0"/>
+	            	<point X="-1" Y="0" Z="-1"/>
+	            	<point X="0" Y="0" Z="-1.4142"/>
+		        	<point X="1" Y="0" Z="-1"/>
+		    	</translate>
+				<scale X="0.013119" Y="0.013119" Z="0.013119"/>
+				<colour X="0.552" Y="0.549" Z="0.486"/>
+				<models>
+					<model file = '../3dFiles/sphere.3d'/>
+				</models>
+			</group>
+			<group>
+				<!-- SATELITE - TITA !-->
+				<translate time="10">
+					<point X="3.0910" Y="0" Z="0"/>
+	            	<point X="2.1857" Y="0" Z="2.1857"/>
+	            	<point X="0" Y="0" Z="3.0910"/>
+	            	<point X="-2.1857" Y="0" Z="2.1857"/>
+	            	<point X="-3.0910" Y="0" Z="0"/>
+	            	<point X="-2.1857" Y="0" Z="-2.1857"/>
+	            	<point X="0" Y="0" Z="-3.0910"/>
+		        	<point X="2.1857" Y="0" Z="-2.1857"/>
+		    	</translate>
+				<scale X="0.044224" Y="0.044224" Z="0.044224"/>
+				<colour X="0.552" Y="0.549" Z="0.486"/>
+				<models>
+					<model file = '../3dFiles/sphere.3d'/>
+				</models>
+			</group>
+			<group> 
+				<!-- SATELITE - Anel !-->
+				<rotate Angle="70" X="1" Y="0" Z="0"/>
+				<scale X="1" Y="1" Z="1"/>
+				<models>
+					<model file = '../3dFiles/torus.3d'/>
+				</models>
+			</group>
+		</group>
+		<group>
+			<!-- URANO !-->
+			<translate time="7500">
+			    <point X="22.455" Y="0" Z="0"/>
+	           	<point X="15.8781" Y="0" Z="15.8781"/>
+	           	<point X="0" Y="0" Z="22.455"/>
+	           	<point X="-15.8781" Y="0" Z="15.8781"/>
+	           	<point X="-22.455" Y="0" Z="0"/>
+	           	<point X="-15.8781" Y="0" Z="-15.8781"/>
+	           	<point X="0" Y="0" Z="-22.455"/>
+		       	<point X="15.8781" Y="0" Z="-15.8781"/>
+		   	</translate>
+			<scale X="0.31" Y="0.31" Z= "0.31"/>
+			<colour X="0.317" Y="0.960" Z="0.921"/>
+			<models>
+			    <model file='../3dFiles/sphere.3d'/>
+			</models>
+			<group>
+				<!-- SATELITE - ARIEL !-->
+				<translate time="10">
+					<point X="1.4142" Y="0" Z="0"/>
+	            	<point X="1" Y="0" Z="1"/>
+	            	<point X="0" Y="0" Z="1.4142"/>
+	            	<point X="-1" Y="0" Z="1"/>
+	            	<point X="-1.4142" Y="0" Z="0"/>
+	            	<point X="-1" Y="0" Z="-1"/>
+	            	<point X="0" Y="0" Z="-1.4142"/>
+		        	<point X="1" Y="0" Z="-1"/>
+		    	</translate>
+				<scale X="0.025666" Y="0.025666" Z="0.025666"/>
+				<colour X="0.552" Y="0.549" Z="0.486"/>
+				<models>
+					<model file = '../3dFiles/sphere.3d'/>
+				</models>
+			</group>
+			 <group>
+				<!-- SATELITE - UMBRIEL !-->
+				<translate time="10">
+					<point X="1.3143" Y="0" Z="0"/>
+	            	<point X="0.9294" Y="0" Z="0.9294"/>
+	            	<point X="0" Y="0" Z="1.3143"/>
+	            	<point X="-0.9294" Y="0" Z="0.9294"/>
+	            	<point X="-1.3143" Y="0" Z="0"/>
+	            	<point X="-0.9294" Y="0" Z="-0.9294"/>
+	            	<point X="0" Y="0" Z="-1.3143"/>
+		        	<point X="0.9294" Y="0" Z="-0.9294"/>
+		    	</translate>
+				<scale X="0.024913" Y="0.024913" Z="0.024913"/>
+				<colour X="0.552" Y="0.549" Z="0.486"/>
+				<models>
+					<model file = '../3dFiles/sphere.3d'/>
+				</models>
+			</group>
+		</group>
+		<group>
+			<!-- NEPTUNO !-->
+			<translate time="15000">
+				<point X="30.75" Y="0" Z="0"/>
+	           	<point X="21.7435" Y="0" Z="21.7435"/>
+	           	<point X="0" Y="0" Z="30.75"/>
+	           	<point X="-21.7435" Y="0" Z="21.7435"/>
+	           	<point X="-30.75" Y="0" Z="0"/>
+	           	<point X="-21.7435" Y="0" Z="-21.7435"/>
+	           	<point X="0" Y="0" Z="-30.75"/>
+		       	<point X="21.7435" Y="0" Z="-21.7435"/>
+		    </translate>
+			<scale X="0.3" Y="0.3" Z= "0.3"/>
+			<colour X="0.137" Y="0.086" Z="0.752"/>
+			<models>
+			    <model file='../3dFiles/sphere.3d'/>
+			</models>
+			<group>
+				<!-- SATELITE - TRITAO !-->
+				<translate time="10">
+					<point X="1.4142" Y="0" Z="0"/>
+	            	<point X="1" Y="0" Z="1"/>
+	            	<point X="0" Y="0" Z="1.4142"/>
+	            	<point X="-1" Y="0" Z="1"/>
+	            	<point X="-1.4142" Y="0" Z="0"/>
+	            	<point X="-1" Y="0" Z="-1"/>
+	            	<point X="0" Y="0" Z="-1.4142"/>
+		        	<point X="1" Y="0" Z="-1"/>
+		    	</translate>
+				<scale X="0.059579" Y="0.059579" Z="0.059579"/>
+				<colour X="0.552" Y="0.549" Z="0.486"/>
+				<models>
+					<model file = '../3dFiles/sphere.3d'/>
+				</models>
+			</group>
+		</group>
+		<group>
+			<!-- Cintura de Kuiper !-->
+			<translate time="140">
+				<point X="0.1" Y="0" Z="0"/>
+	            <point X="0.0707" Y="0" Z="0.0707"/>
+	            <point X="0" Y="0" Z="0.1"/>
+	            <point X="-0.0707" Y="0" Z="0.0707"/>
+	            <point X="-0.1" Y="0" Z="0"/>
+	            <point X="-0.0707" Y="0" Z="-0.0707"/>
+	            <point X="0" Y="0" Z="-0.1"/>
+		        <point X="0.0707" Y="0" Z="-0.0707"/>
+		    </translate>
+			<models>
+			    <model file='../3dFiles/cinturaFora.3d'/>
+			</models>
+		</group>
+		<group>
+			<translate time="30">
+				<point X="40" Y="0" Z="-80" />
+				<point X="36.9552" Y="0" Z="-39.8182" />
+				<point X="28.2843" Y="0" Z="-5.75379" />
+				<point X="15.3073" Y="0" Z="17.0074" />
+				<point X="2.44929e-15" Y="0" Z="25" />
+				<point X="-15.3073" Y="0" Z="17.0074" />
+				<point X="-28.2843" Y="0" Z="-5.75379" />
+				<point X="-36.9552" Y="0" Z="-39.8182" />
+				<point X="-40" Y="0" Z="-80" />
+				<point X="-36.9552" Y="0" Z="-120.182" />
+				<point X="-28.2843" Y="0" Z="-154.246" />
+				<point X="-15.3073" Y="0" Z="-177.007" />
+				<point X="-7.34788e-15" Y="0" Z="-185" />
+				<point X="15.3073" Y="0" Z="-177.007" />
+				<point X="28.2843" Y="0" Z="-154.246" />
+				<point X="36.9552" Y="0" Z="-120.182" />
+			</translate>
+			<scale X="0.2" Y="0.2" Z="0.2" />
+			<rotate angle="270" X="1" Y="0" Z="0"/>
+			<models>
+				<model file="../3dFiles/cometaTeapot.3d" />
+			</models>
+		</group>
+	</group>
+</scene>

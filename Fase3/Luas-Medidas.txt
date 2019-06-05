@@ -1,0 +1,28 @@
+Luas para CG:
+
+Terra:
+	Lua - 1737.1
+
+Marte:
+	Fobos  - 11.267
+	Deimos - 6.2
+
+Jupiter:
+	Io        - 1821.6
+	Europa    - 1560.8
+	Ganímedes - 2634.1
+	Calisto   - 2410.3
+
+Saturno:
+	Titã   - 2574.7
+	Reia   - 763.8
+	Jápeto - 734.5
+
+Urano:
+	Ariel   - 578.9
+	Umbriel - 584.7
+	Titânia - 788.4
+	Oberon  - 761.4
+
+Netuno:
+	Tritão - 1353.4
