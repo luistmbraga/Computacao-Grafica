@@ -1,0 +1,179 @@
+<?xml version="2.0" ?>
+<scene>
+	<group>
+		<!-- SOL !-->
+		<scale X="16.0" Y="16.0" Z="16.0"/>
+		<colour X="0.956" Y="0.909" Z="0.043"/>
+		<models>
+			<model file='../3dFiles/sphere.3d'/>
+		</models>
+		<group>
+			<!-- MERCURIO !-->
+			<translate X="1.5" Y="0" Z="0"/>
+			<scale X="0.05" Y="0.05" Z="0.05"/>
+			<colour X="0.552" Y="0.549" Z="0.486"/>
+			<models>
+				<model file = '../3dFiles/sphere.3d'/>
+			</models>
+		</group>
+		<group>
+			<!-- VENUS !-->
+			<translate X="2.8421" Y="0" Z="0"/>
+			<scale X="0.1244" Y="0.1244" Z= "0.1244"/>
+			<colour X="0.929" Y="0.909" Z="0.572"/>
+			<models>
+			    <model file='../3dFiles/sphere.3d'/>
+			</models>
+		</group>
+		<group>
+			<!-- TERRA !-->
+			<translate X="3.9211" Y="0" Z="0"/>
+			<scale X="0.1310" Y="0.1310" Z= "0.1310"/>
+			<colour X="0.105" Y="0.466" Z="0.815"/>
+			<models>
+			    <model file='../3dFiles/sphere.3d'/>
+			</models>
+			<group>
+				<!-- SATELITE - LUA !-->
+				<translate X="1.4" Y="1.4" Z="0"/>
+				<scale X="0.2727" Y="0.2727" Z="0.2727"/>
+				<colour X="0.552" Y="0.549" Z="0.486"/>
+				<models>
+					<model file = '../3dFiles/sphere.3d'/>
+				</models>
+			</group>
+		</group> 
+		<group>
+			<!-- MARTE !-->
+			<translate X="6" Y="0" Z="0"/>
+			<scale X="0.0695" Y="0.0695" Z= "0.0695"/>
+			<colour X="0.745" Y="0.192" Z="0.035"/>
+			<models>
+			    <model file='../3dFiles/sphere.3d'/>
+			</models>
+		</group>
+		<group>
+			<!-- Cintura de Asteroides !-->
+			<rotate Angle="90" X="1" Y="0" Z="0"/>
+			<scale X="1" Y="1" Z= "1"/>
+			<models>
+			    <model file='../3dFiles/cintura.3d'/>
+			</models>
+		</group>
+		<group>
+			<!-- JUPITER !-->
+			<translate X="12" Y="0" Z="0"/>
+			<scale X="0.6294" Y="0.6294" Z= "0.6294"/>
+			<colour X="0.984" Y="0.760" Z="0.552"/>
+			<models>
+			    <model file='../3dFiles/sphere.3d'/>
+			</models>
+			<group>
+				<!-- SATELITE - IO !-->
+				<translate X="1.0" Y="1.0" Z="0"/>
+				<scale X="0.025479" Y="0.025479" Z="0.025479"/>
+				<colour X="0.552" Y="0.549" Z="0.486"/>
+				<models>
+					<model file = '../3dFiles/sphere.3d'/>
+				</models>
+			</group>
+			 <group>
+				<!-- SATELITE - EUROPA !-->
+				<translate X="1.35965" Y="-1" Z="0"/>
+				<scale X="0.0218318" Y="0.0218318" Z="0.0218318"/>
+				<colour X="0.552" Y="0.549" Z="0.486"/>
+				<models>
+					<model file = '../3dFiles/sphere.3d'/>
+				</models>
+			</group>
+		</group>
+		<group>
+			<!-- SATURNO !-->
+			<translate X="15.285" Y="0" Z="0"/>
+			<scale X="0.5126" Y="0.5126" Z= "0.5126"/>
+			<colour X="0.992" Y="0.956" Z="0.447"/>
+			<models>
+			    <model file='../3dFiles/sphere.3d'/>
+			</models>
+			<group>
+				<!-- SATELITE - REIA !-->
+				<translate X="1.0" Y="1.0" Z="0"/>
+				<scale X="0.013119" Y="0.013119" Z="0.013119"/>
+				<colour X="0.552" Y="0.549" Z="0.486"/>
+				<models>
+					<model file = '../3dFiles/sphere.3d'/>
+				</models>
+			</group>
+			<group>
+				<!-- SATELITE - TITA !-->
+				<translate X="1.5" Y="1.589746" Z="0"/>
+				<scale X="0.044224" Y="0.044224" Z="0.044224"/>
+				<colour X="0.552" Y="0.549" Z="0.486"/>
+				<models>
+					<model file = '../3dFiles/sphere.3d'/>
+				</models>
+			</group>
+			<group> 
+				<!-- SATELITE - Anel !-->
+				<rotate Angle="70" X="1" Y="0" Z="0"/>
+				<scale X="1" Y="1" Z="1"/>
+				<models>
+					<model file = '../3dFiles/torus.3d'/>
+				</models>
+			</group>
+		</group>
+		<group>
+			<!-- URANO !-->
+			<translate X="22.455" Y="0" Z="0"/>
+			<scale X="0.31" Y="0.31" Z= "0.31"/>
+			<colour X="0.317" Y="0.960" Z="0.921"/>
+			<models>
+			    <model file='../3dFiles/sphere.3d'/>
+			</models>
+			<group>
+				<!-- SATELITE - ARIEL !-->
+				<translate X="1.0" Y="1.0" Z="0"/>
+				<scale X="0.025666" Y="0.025666" Z="0.025666"/>
+				<colour X="0.552" Y="0.549" Z="0.486"/>
+				<models>
+					<model file = '../3dFiles/sphere.3d'/>
+				</models>
+			</group>
+			 <group>
+				<!-- SATELITE - UMBRIEL !-->
+				<translate X="-0.5" Y="1.215517" Z="0"/>
+				<scale X="0.024913" Y="0.024913" Z="0.024913"/>
+				<colour X="0.552" Y="0.549" Z="0.486"/>
+				<models>
+					<model file = '../3dFiles/sphere.3d'/>
+				</models>
+			</group>
+		</group>
+		<group>
+			<!-- NEPTUNO !-->
+			<translate X="30.75" Y="0" Z="0"/>
+			<scale X="0.3" Y="0.3" Z= "0.3"/>
+			<colour X="0.137" Y="0.086" Z="0.752"/>
+			<models>
+			    <model file='../3dFiles/sphere.3d'/>
+			</models>
+			<group>
+				<!-- SATELITE - TRITAO !-->
+				<translate X="-1.4" Y="1.4" Z="0"/>
+				<scale X="0.059579" Y="0.059579" Z="0.059579"/>
+				<colour X="0.552" Y="0.549" Z="0.486"/>
+				<models>
+					<model file = '../3dFiles/sphere.3d'/>
+				</models>
+			</group>
+		</group>
+		<group>
+			<!-- Cintura de Kuiper !-->
+			<rotate Angle="90" X="1" Y="0" Z="0"/>
+			<scale X="1" Y="1" Z= "1"/>
+			<models>
+			    <model file='../3dFiles/cinturaFora.3d'/>
+			</models>
+		</group>
+	</group>
+</scene>
