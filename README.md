@@ -7,4 +7,4 @@ O texto deve ser mais esquemático. Por exemplo na caixa o cálculo das variáve
 
 
 
-Nota Final: valores
+Nota Final: 16.75 valores
